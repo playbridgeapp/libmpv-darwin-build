@@ -1,8 +1,8 @@
 {
   dav1d = {
     version = "1.2.1";
-    url = "https://code.videolan.org/videolan/dav1d/-/archive/1.2.1/dav1d-1.2.1.tar.bz2";
-    sha256 = "a4003623cdc0109dec3aac8435520aa3fb12c4d69454fa227f2658cdb6dab5fa";
+    url = "https://github.com/videolan/dav1d/archive/refs/tags/1.2.1.tar.gz";
+    sha256 = "2dd85860d213479672b1c708e31593446e8c2b53ff41e2ca25a2eafb718424e2";
   };
   ffmpeg = {
     version = "7.1.1";
@@ -61,7 +61,7 @@
   };
   libx264 = {
     version = "a8b68ebf";
-    url = "https://code.videolan.org/videolan/x264/-/archive/a8b68ebfaa68621b5ac8907610d3335971839d52/libx264-a8b68ebfaa68621b5ac8907610d3335971839d52.tar.gz";
+    url = "https://github.com/mirror/x264/archive/a8b68ebfaa68621b5ac8907610d3335971839d52.tar.gz";
     sha256 = "164688b63f11a6e4f6d945057fc5c57d5eefb97973d0029fb0303744e10839ff";
   };
   libxml2 = {
