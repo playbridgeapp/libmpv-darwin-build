@@ -79,6 +79,7 @@ pkgs.stdenvNoCC.mkDerivation {
   configurePhase = ''
     DISABLE_ALL_OPTIONS=(
       `# booleans`
+      -Dlibplacebo=disabled `# libplacebo support`
       -Dgpl=false `# GPL (version 2 or later) build`
       -Dcplayer=false `# mpv CLI player`
       -Dlibmpv=false `# libmpv library`
